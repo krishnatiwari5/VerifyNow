@@ -1,0 +1,45 @@
+.sraccess-con {
+    background-color: var(--main-bg-color);
+    height: 90.5vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sraccess {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+    background-color: var(--main-web-color);
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px darkgoldenrod;
+  
+}
+
+.sraccess h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.sraccess h2 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.successlogocon {
+    background-color: orange;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.successlogo {
+    width: 80px;
+    height: 80px;
+    /* color: orange; */
+}
+

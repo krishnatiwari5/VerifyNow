@@ -1,0 +1,253 @@
+
+.signupcon {
+    background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 90.5vh;
+
+
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+
+
+
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.signup {
+   
+    background-color: var(--main-web-color);
+
+    color: white;
+    /* font-family: 'Roboto Serif', serif; */
+    display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid var(--main-web-color);
+border-radius: 10px;
+box-shadow: 0px 0px 10px rgb(94, 75, 35);
+box-shadow: 0px 0px 10px darkgoldenrod;
+/* overflow: hidden; */
+/* padding: 20px 50px; */
+margin: 30px 0;
+   }
+   .signuppage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+   
+   .signupright {
+       width: 60%;
+       /* height: max-content; */
+       padding: 10px 0;
+
+   }
+   
+   /* .signupleft {
+    background-color: var(--main-web-color);
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+   } */
+   
+   .signupform {
+    width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       flex-direction: column;
+      /* height: 600px; */
+
+   }
+
+   .signupform .form-div {
+    width: 100%;
+    background-color: rgb(86, 85, 85);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+   }
+
+   .user-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(86, 85, 85);
+    border-radius: 10px;
+
+   }
+
+   .firstname-con {
+    margin-right: 10px;
+   
+   }
+
+   .dumdiv {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+   }
+
+
+   
+   .signupform input {
+    
+  font-family: "Playwrite DE Grund", cursive;
+    width: 100%;
+       outline: none;
+       border: none;
+       text-align: center;
+       /* border: 2px solid grey; */
+       font-size: 1.5rem;
+       /* margin-bottom: 30px; */
+       background-color: var(--main-web-color);
+       color: white;
+       padding: 10px;
+       border-radius: 10px;
+  
+   }
+
+   
+   .signupbtn {
+       font-size: 1.5rem;
+       background-color: var(--main-web-color);
+       color: white;
+       border-radius: 5px;
+       outline: none;
+       border: 2px solid grey;
+       padding: 10px;
+       background-color: rgb(86, 85, 85);
+       width: 50%;
+       
+  font-family: "Playwrite DE Grund", cursive;
+   }
+
+   .signupbtn:hover {
+    background-color: silver;
+    color: black;
+    border-color: white;
+   }
+   
+   .signup_signinbtn {
+       font-size: 1.5rem;
+      
+       color: white;
+       border-radius: 5px;
+       outline: none;
+       border: 2px solid blue;
+       background-color: gray;
+       padding: 10px;
+   }
+
+   .signupinbtn-con {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+   .linktext {
+    font-weight: bold;
+color: orange;
+text-decoration: none;
+font-size: large;
+   }
+
+   .linktext:hover {
+    color: darkgoldenrod;
+   }
+
+   .signupinbtn-con p {
+    width: 50%;
+    text-align: center;
+   }
+
+   .or-con {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 0;
+   }
+
+   .or-con hr {
+    width: 35%;
+   }
+
+   .otherLoginsCon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+  
+    border: 2px solid rgb(86, 85, 85);
+    width: 100%;
+    border-radius: 8px;
+margin-bottom: 20px;
+   }
+
+   .otherLoginsCon:hover {
+    border-color: white;
+   }
+
+   .otherlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+    height: 100%;
+    
+   }
+
+   .otherlogin-google {
+    border-right: 3px solid gray;
+   }
+
+   .otherlogin .google-logo {
+    filter: invert(100%);
+   }
+
+   .otherlogin:hover {
+     
+       background-color: silver;
+    cursor: pointer;
+
+   }
+
+   .otherlogin:hover .github-logo{
+    filter: invert(100%);
+   }
+
+   .otherlogin:hover .google-logo {
+    filter: invert(0%);
+   }
+   .otherLoginLogo {
+    width: 30px;
+
+   }
+
+
+

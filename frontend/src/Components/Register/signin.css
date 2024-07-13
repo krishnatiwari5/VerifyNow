@@ -1,0 +1,206 @@
+.signincon {
+    background-color: var(--main-bg-color);   
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 90.5vh;
+
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+}
+
+
+.signin {
+    background-color: var(--main-web-color);
+    color: white;
+    /* font-family: 'Roboto Serif', serif; */
+    display: flex;
+align-items: center;
+justify-content: center;
+border: 5px solid var(--main-web-color);
+border-radius: 10px;
+box-shadow: 0px 0px 10px darkgoldenrod;
+/* box-shadow: 5px 5px 5px rgb(250, 224, 174); */
+}
+
+
+
+.signinpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 50px 80px;
+    /* padding: 50px; */
+}
+
+.signinpage h1 {
+    margin-bottom: 20px;
+}
+
+.signinleft {
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+
+
+.signinform {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.forgotpass {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.signinform input {
+    font-family: "Playwrite DE Grund", cursive;
+    width: 100%;
+       outline: none;
+       border: none;
+       text-align: center;
+       /* border: 2px solid grey; */
+       font-size: 1.5rem;
+       /* margin-bottom: 30px; */
+       background-color: var(--main-web-color);
+       color: white;
+       padding: 10px;
+       border-radius: 10px;
+  
+}
+
+ .signinform .form-div {
+    width: 100%;
+    background-color: rgb(86, 85, 85);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+   }
+
+   .user-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(86, 85, 85);
+    border-radius: 10px;
+
+   }
+
+   .firstname-con {
+    margin-right: 10px;
+   
+   }
+
+   .dumdiv {
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+   }
+
+
+   .or-con-signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 40px 0;
+    
+   }
+
+   .or-con-signin hr {
+    width: 30%;
+   }
+   .or-con-signin p {
+    margin: auto;
+   }
+
+.signinbtn {
+    font-size: 1.5rem;
+    background-color: var(--main-web-color);
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid grey;
+    padding: 10px;
+    background-color: rgb(86, 85, 85);
+    width: 100%;
+    margin-top: 10px ;
+    
+  font-family: "Playwrite DE Grund", cursive;
+}
+
+.signinbtn:hover {
+    background-color: silver;
+    color: black;
+    border-color: white;
+ 
+   }
+
+   .otherloginscon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   }
+
+.otherlogin-loginpage  {
+    background-color: gray;
+    border-radius: 50%;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.otherlogin-loginpage:hover {
+    background-color: silver;
+    /* border: 0.5px solid white; */
+}
+
+.otherlogin-loginpage .github-logo {
+    filter: invert(100%);
+}
+
+
+
+.signin_signupbtn {
+    font-size: 1.5rem;
+   
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+
+.signupoption {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.passwordfieldcon {
+    position: relative;
+}
+
+.passwordeye {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+right: 20px;
+bottom: 55px;
+}

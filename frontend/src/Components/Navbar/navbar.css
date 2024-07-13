@@ -1,0 +1,116 @@
+.navbarmaincon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+}
+
+.navbarmaincon ul {
+    cursor: pointer;
+}
+
+.navbarLinks {
+    color: white;
+    text-decoration: none;
+}
+
+.navbarLinks:hover, .navbarLinks:active, .navbarLinks:focus {
+    color: silver;
+}
+
+
+.navbarcon {
+/* position: absolute; */
+background-color: rgba(128, 128, 128, 0.34);
+color: white;
+width: 80%;
+margin-top: 40px;
+border-radius: 10px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.websitenamenav {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.websiteNameLink {
+    text-decoration: none;
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+ 
+}
+
+.websitelogonav {
+height: 40px;
+margin: auto;
+margin-right: 5px;
+}
+
+
+.navoptions {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+font-size: 1.3rem;
+}
+
+.usernameloginbtncon {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navoptionslogo  {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+
+}
+
+.navoptionlogo, .disablenavoptionlogo
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+.navoptionlogo:hover, .navoptionlogo:focus, .navoptionlogo:active {
+    color: silver;
+}
+
+.userlogolink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.userlogolinkbtn {
+background-color: transparent;
+border: none;
+outline: none;
+margin-left: 10px;
+}
+
+.settingslogo {
+    margin-left: 10px;
+    color: orange;
+}
